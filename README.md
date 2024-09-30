@@ -69,6 +69,7 @@ Uploaded image in the webapp
 Extracted Text
 ![image](https://github.com/user-attachments/assets/5aeefb8f-f31f-49ee-8c33-9a10937827d5)
 
-For Searching the Keyword
+For Searching the Keyword or line in the text
 ![image](https://github.com/user-attachments/assets/3cd2c123-9f04-47ea-8c5f-d6cb7a0f430b)
 
+So this is the implemwnted webapp with images .
