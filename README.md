@@ -18,19 +18,15 @@ Environment Setup
 Create and activate a virtual environment
 Install the required libraries
 
+
 OCR Model Integration
-In this project, you can choose between various OCR models. Here is a sample code to integrate an OCR model
+This project integrates Tesseract, an open-source OCR engine developed by Google, to extract text from images in Hindi and English. 
+Tesseract is customizable and supports multiple languages, making it ideal for various applications.
 
-Sample Code
-python
+Installation:
+Install Tesseract OCR and add it to your PATH.
+Install Python packages: pip install pytesseract Pillow.
 
-# Load the OCR model
-ocr_model = pipeline("image-to-text", model="your_model_here")
-
-def extract_text(image):
-    """Extract text from the uploaded image."""
-    return ocr_model(image)[0]['text']
-This function uses the chosen OCR model to process the uploaded image and returns the extracted text.
 
 Web Application Development with Gradio
 The web application allows users to upload images and displays the extracted text. The code is in app.py file 
