@@ -40,7 +40,7 @@ Access the application: Open your web browser and navigate to [http://localhost:
 
 Public link
 This share link expires in 72 hours. 
-https://d10a0b5b4532d01324.gradio.live
+[https://d10a0b5b4532d01324.gradio.live](https://26c24510f02dbc27b8.gradio.live/)
 
 python
 
